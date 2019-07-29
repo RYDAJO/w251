@@ -2,7 +2,7 @@ import numpy as np
 import cv2 as cv
 
 # 1 corresponds to /dev/video1 , the USB camera. 0 is reserved for the TX2 onboard camera
-cap = cv.VideoCapture(0)
+cap = cv.VideoCapture(1)
 
 while(True):
     # Capture frame-by-frame
